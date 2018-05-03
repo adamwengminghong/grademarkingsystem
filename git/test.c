@@ -2,7 +2,7 @@
 
 // File:        colorcube.cpp
 // Author:      Matt Daisley
-// Created:     4/25/2012
+// Created:     4/25/2018
 // Project:     Source code for Make a Cube in OpenGL
 // Description: Creates an OpenGL window and draws a 3D cube
 //              That the user can rotate using the arrow keys
