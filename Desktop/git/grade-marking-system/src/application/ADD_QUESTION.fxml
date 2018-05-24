@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="310.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddQuestionController">
+   <children>
+      <TextField fx:id="questionWeightField" layoutX="13.0" layoutY="252.0" prefHeight="30.0" prefWidth="269.0" />
+      <Button layoutX="347.0" layoutY="139.0" mnemonicParsing="false" onAction="#addQuestion" text="Save" />
+      <Label layoutX="15.0" layoutY="223.0" text="Weighting of this Question:" />
+      <TextField fx:id="questionNameField" layoutX="13.0" layoutY="37.0" prefHeight="30.0" prefWidth="269.0" />
+      <Label layoutX="13.0" layoutY="17.0" text="Question Name:" />
+      <ChoiceBox fx:id="rubricChoiceBox" layoutX="15.0" layoutY="179.0" prefHeight="30.0" prefWidth="269.0" />
+      <Label layoutX="15.0" layoutY="154.0" text="Which Rubric:" />
+      <ChoiceBox fx:id="assignmentChoiceBox" layoutX="15.0" layoutY="105.0" prefHeight="30.0" prefWidth="269.0" />
+      <Label layoutX="13.0" layoutY="81.0" text="Which Assignment:" />
+   </children>
+</AnchorPane>

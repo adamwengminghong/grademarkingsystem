@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="578.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="471.0" mnemonicParsing="false" onAction="#LOGIN" prefHeight="36.0" prefWidth="126.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passWord" layoutX="103.0" layoutY="362.0" prefHeight="48.0" prefWidth="355.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="userName" layoutX="103.0" layoutY="241.0" prefHeight="48.0" prefWidth="355.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="101.0" layoutY="206.0" text="Username:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="323.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="108.0" text="Grade Marking System">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
